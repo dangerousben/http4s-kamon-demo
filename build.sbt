@@ -8,4 +8,5 @@ lazy val http4sKamonDemo = (project in file("."))
       "io.kamon" %% "kamon-bundle" % "2.1.9",
       "io.kamon" %% "kamon-http4s" % "2.0.3",
     ),
+    mainClass in (Compile, run) := Some("Main"),
   )
